@@ -1,0 +1,16 @@
+account_number:
+  unique: true
+  nonNull: true
+
+address:
+  fixedLength: 8
+
+transaction_date:
+  nonNull: true
+
+auth:
+  allowedValues: [true, false]
+
+pincode:
+  nonNull: true
+  fixedLength: 6
